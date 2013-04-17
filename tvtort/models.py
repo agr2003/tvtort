@@ -34,8 +34,5 @@ class Photo(models.Model):
     def get_absolute_url(self):
         return ('photo_detail', None, {'object_id': self.id})
 
-class PhotoInline(admin.StackedInline):
-    model = Photo
 
-class ItemAdmin(admin.ModelAdmin):
-    inlines = [PhotoInline]
+
