@@ -1,0 +1,2576 @@
+[
+    {
+        "pk": 1,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0410\u0432\u0441\u0442\u0440\u0438\u044f",
+            "a3": "AUT",
+            "a2": "AT",
+            "numberCode": 40,
+            "title": "Austria"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d",
+            "a3": "AZE",
+            "a2": "AZ",
+            "numberCode": 31,
+            "title": "Azerbaijan"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0410\u043b\u0431\u0430\u043d\u0438\u044f",
+            "a3": "ALB",
+            "a2": "AL",
+            "numberCode": 8,
+            "title": "Albania"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0410\u043b\u0436\u0438\u0440",
+            "a3": "DZA",
+            "a2": "DZ",
+            "numberCode": 12,
+            "title": "Algeria"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0410\u043d\u0433\u0438\u043b\u044c\u044f \u043e. (GB)",
+            "a3": "AIA",
+            "a2": "AI",
+            "numberCode": 660,
+            "title": "Anguilla"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0410\u043d\u0433\u043e\u043b\u0430",
+            "a3": "AGO",
+            "a2": "AO",
+            "numberCode": 24,
+            "title": "Angola"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0410\u043d\u0434\u043e\u0440\u0440\u0430",
+            "a3": "AND",
+            "a2": "AD",
+            "numberCode": 20,
+            "title": "Andorra"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0410\u043d\u0442\u0430\u0440\u043a\u0442\u0438\u043a\u0430",
+            "a3": "ATA",
+            "a2": "AQ",
+            "numberCode": 10,
+            "title": "Antarctic"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0410\u043d\u0442\u0438\u0433\u0443\u0430 \u0438 \u0411\u0430\u0440\u0431\u0443\u0434\u0430",
+            "a3": "ATG",
+            "a2": "AG",
+            "numberCode": 28,
+            "title": "Antigua and Barbuda"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0410\u043d\u0442\u0438\u043b\u044c\u0441\u043a\u0438\u0435 \u043e-\u0432\u0430 (NL)",
+            "a3": "ANT",
+            "a2": "AN",
+            "numberCode": 530,
+            "title": "Netherlands' Antilles"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430",
+            "a3": "ARG",
+            "a2": "AR",
+            "numberCode": 32,
+            "title": "Argentina"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0410\u0440\u043c\u0435\u043d\u0438\u044f",
+            "a3": "ARM",
+            "a2": "AM",
+            "numberCode": 51,
+            "title": "Armenia"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0410\u0440\u0443\u0431\u0430",
+            "a3": "ABW",
+            "a2": "AW",
+            "numberCode": 533,
+            "title": "Aruba"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0410\u0444\u0433\u0430\u043d\u0438\u0441\u0442\u0430\u043d",
+            "a3": "AFG",
+            "a2": "AF",
+            "numberCode": 4,
+            "title": "Afghanistan"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u0430\u0433\u0430\u043c\u044b",
+            "a3": "BHS",
+            "a2": "BS",
+            "numberCode": 44,
+            "title": "Bahamas"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u0430\u043d\u0433\u043b\u0430\u0434\u0435\u0448",
+            "a3": "BGD",
+            "a2": "BD",
+            "numberCode": 50,
+            "title": "Bangladesh"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u0430\u0440\u0431\u0430\u0434\u043e\u0441",
+            "a3": "BRB",
+            "a2": "BB",
+            "numberCode": 52,
+            "title": "Barbados"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u0430\u0445\u0440\u0435\u0439\u043d",
+            "a3": "BHR",
+            "a2": "BH",
+            "numberCode": 48,
+            "title": "Bahrain"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c",
+            "a3": "BLR",
+            "a2": "BY",
+            "numberCode": 112,
+            "title": "Belarus"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u0435\u043b\u0438\u0437",
+            "a3": "BLZ",
+            "a2": "BZ",
+            "numberCode": 84,
+            "title": "Belize"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u0435\u043b\u044c\u0433\u0438\u044f",
+            "a3": "BEL",
+            "a2": "BE",
+            "numberCode": 56,
+            "title": "Belgium"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u0435\u043d\u0438\u043d",
+            "a3": "BEN",
+            "a2": "BJ",
+            "numberCode": 204,
+            "title": "Benin"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u0435\u0440\u043c\u0443\u0434\u044b",
+            "a3": "BMU",
+            "a2": "BM",
+            "numberCode": 60,
+            "title": "Bermuda"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u043e\u0432\u0435 \u043e. (NO)",
+            "a3": "BVT",
+            "a2": "BV",
+            "numberCode": 74,
+            "title": "Bouvet Island"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f",
+            "a3": "BGR",
+            "a2": "BG",
+            "numberCode": 100,
+            "title": "Bulgaria"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u043e\u043b\u0438\u0432\u0438\u044f",
+            "a3": "BOL",
+            "a2": "BO",
+            "numberCode": 68,
+            "title": "Bolivia"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u043e\u0441\u043d\u0438\u044f \u0438 \u0413\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430",
+            "a3": "BIH",
+            "a2": "BA",
+            "numberCode": 70,
+            "title": "Bosnia & Herzegovina"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u043e\u0442\u0441\u0432\u0430\u043d\u0430",
+            "a3": "BWA",
+            "a2": "BW",
+            "numberCode": 72,
+            "title": "Botswana"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u0440\u0430\u0437\u0438\u043b\u0438\u044f",
+            "a3": "BRA",
+            "a2": "BR",
+            "numberCode": 76,
+            "title": "Brazil"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u0440\u0443\u043d\u0435\u0439 \u0414\u0430\u0440\u0430\u0441\u0441\u0430\u043b\u0430\u043c",
+            "a3": "BRN",
+            "a2": "BN",
+            "numberCode": 96,
+            "title": "Brunei Darussalam"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u0443\u0440\u043a\u0438\u043d\u0430-\u0424\u0430\u0441\u043e",
+            "a3": "BFA",
+            "a2": "BF",
+            "numberCode": 854,
+            "title": "Burkina-Faso"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u0443\u0440\u0443\u043d\u0434\u0438",
+            "a3": "BDI",
+            "a2": "BI",
+            "numberCode": 108,
+            "title": "Burundi"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0411\u0443\u0442\u0430\u043d",
+            "a3": "BTN",
+            "a2": "BT",
+            "numberCode": 64,
+            "title": "Bhutan"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0412\u0430\u043d\u0443\u0430\u0442\u0443",
+            "a3": "VUT",
+            "a2": "VU",
+            "numberCode": 548,
+            "title": "Vanuatu"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0412\u0430\u0442\u0438\u043a\u0430\u043d",
+            "a3": "VAT",
+            "a2": "VA",
+            "numberCode": 336,
+            "title": "Vatican (Holy See)"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f",
+            "a3": "GBR",
+            "a2": "GB",
+            "numberCode": 826,
+            "title": "Great Britain (United Kingdom)"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0412\u0435\u043d\u0433\u0440\u0438\u044f",
+            "a3": "HUN",
+            "a2": "HU",
+            "numberCode": 348,
+            "title": "Hungary"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0412\u0435\u043d\u0435\u0441\u0443\u044d\u043b\u0430",
+            "a3": "VEN",
+            "a2": "VE",
+            "numberCode": 862,
+            "title": "Venezuela"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0412\u0438\u0440\u0433\u0438\u043d\u0441\u043a\u0438\u0435 \u043e-\u0432\u0430 (GB)",
+            "a3": "VGB",
+            "a2": "VG",
+            "numberCode": 92,
+            "title": "Virgin Islands British"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0412\u0438\u0440\u0433\u0438\u043d\u0441\u043a\u0438\u0435 \u043e-\u0432\u0430 (US)",
+            "a3": "VIR",
+            "a2": "VI",
+            "numberCode": 850,
+            "title": "Virgin Islands US"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u0435 \u0421\u0430\u043c\u043e\u0430 (US)",
+            "a3": "ASM",
+            "a2": "AS",
+            "numberCode": 16,
+            "title": "American Samoa"
+        }
+    },
+    {
+        "pk": 42,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u044b\u0439 \u0422\u0438\u043c\u043e\u0440",
+            "a3": "TMP",
+            "a2": "TP",
+            "numberCode": 626,
+            "title": "East Timor"
+        }
+    },
+    {
+        "pk": 43,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c",
+            "a3": "VNM",
+            "a2": "VN",
+            "numberCode": 704,
+            "title": "Viet Nam"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u0430\u0431\u043e\u043d",
+            "a3": "GAB",
+            "a2": "GA",
+            "numberCode": 266,
+            "title": "Gabon"
+        }
+    },
+    {
+        "pk": 45,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u0430\u0438\u0442\u0438",
+            "a3": "HTI",
+            "a2": "HT",
+            "numberCode": 332,
+            "title": "Haiti"
+        }
+    },
+    {
+        "pk": 46,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u0430\u0439\u0430\u043d\u0430",
+            "a3": "GUY",
+            "a2": "GY",
+            "numberCode": 328,
+            "title": "Guyana"
+        }
+    },
+    {
+        "pk": 47,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u0430\u043c\u0431\u0438\u044f",
+            "a3": "GMB",
+            "a2": "GM",
+            "numberCode": 270,
+            "title": "Gambia"
+        }
+    },
+    {
+        "pk": 48,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u0430\u043d\u0430",
+            "a3": "GHA",
+            "a2": "GH",
+            "numberCode": 288,
+            "title": "Ghana"
+        }
+    },
+    {
+        "pk": 49,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u0432\u0430\u0434\u0435\u043b\u0443\u043f\u0430",
+            "a3": "GLP",
+            "a2": "GP",
+            "numberCode": 312,
+            "title": "Guadeloupe"
+        }
+    },
+    {
+        "pk": 50,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u0432\u0430\u0442\u0435\u043c\u0430\u043b\u0430",
+            "a3": "GTM",
+            "a2": "GT",
+            "numberCode": 320,
+            "title": "Guatemala"
+        }
+    },
+    {
+        "pk": 51,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u0432\u0438\u043d\u0435\u044f",
+            "a3": "GIN",
+            "a2": "GN",
+            "numberCode": 324,
+            "title": "Guinea"
+        }
+    },
+    {
+        "pk": 52,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u0432\u0438\u043d\u0435\u044f-\u0411\u0438\u0441\u0430\u0443",
+            "a3": "GNB",
+            "a2": "GW",
+            "numberCode": 624,
+            "title": "Guinea-Bissau"
+        }
+    },
+    {
+        "pk": 53,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f",
+            "a3": "DEU",
+            "a2": "DE",
+            "numberCode": 276,
+            "title": "Germany"
+        }
+    },
+    {
+        "pk": 54,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u0438\u0431\u0440\u0430\u043b\u0442\u0430\u0440",
+            "a3": "GIB",
+            "a2": "GI",
+            "numberCode": 292,
+            "title": "Gibraltar"
+        }
+    },
+    {
+        "pk": 55,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u043e\u043d\u0434\u0443\u0440\u0430\u0441",
+            "a3": "HND",
+            "a2": "HN",
+            "numberCode": 340,
+            "title": "Honduras"
+        }
+    },
+    {
+        "pk": 56,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u043e\u043d\u043a\u043e\u043d\u0433 (CN)",
+            "a3": "HKG",
+            "a2": "HK",
+            "numberCode": 344,
+            "title": "Hong Kong"
+        }
+    },
+    {
+        "pk": 57,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u0440\u0435\u043d\u0430\u0434\u0430",
+            "a3": "GRD",
+            "a2": "GD",
+            "numberCode": 308,
+            "title": "Grenada"
+        }
+    },
+    {
+        "pk": 58,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u0440\u0435\u043d\u043b\u0430\u043d\u0434\u0438\u044f (DK)",
+            "a3": "GRL",
+            "a2": "GL",
+            "numberCode": 304,
+            "title": "Greenland"
+        }
+    },
+    {
+        "pk": 59,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u0440\u0435\u0446\u0438\u044f",
+            "a3": "GRC",
+            "a2": "GR",
+            "numberCode": 300,
+            "title": "Greece"
+        }
+    },
+    {
+        "pk": 60,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u0440\u0443\u0437\u0438\u044f",
+            "a3": "GEO",
+            "a2": "GE",
+            "numberCode": 268,
+            "title": "Georgia"
+        }
+    },
+    {
+        "pk": 61,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0413\u0443\u0430\u043c",
+            "a3": "GUM",
+            "a2": "GU",
+            "numberCode": 316,
+            "title": "Guam"
+        }
+    },
+    {
+        "pk": 62,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0414\u0430\u043d\u0438\u044f",
+            "a3": "DNK",
+            "a2": "DK",
+            "numberCode": 208,
+            "title": "Denmark"
+        }
+    },
+    {
+        "pk": 63,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u043d\u0433\u043e",
+            "a3": "COD",
+            "a2": "CD",
+            "numberCode": 180,
+            "title": "Congo Democratic Republic"
+        }
+    },
+    {
+        "pk": 64,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0414\u0436\u0438\u0431\u0443\u0442\u0438",
+            "a3": "DJI",
+            "a2": "DJ",
+            "numberCode": 262,
+            "title": "Djibouti"
+        }
+    },
+    {
+        "pk": 65,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0414\u043e\u043c\u0438\u043d\u0438\u043a\u0430",
+            "a3": "DMA",
+            "a2": "DM",
+            "numberCode": 212,
+            "title": "Dominica"
+        }
+    },
+    {
+        "pk": 66,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0414\u043e\u043c\u0438\u043d\u0438\u043a\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+            "a3": "DOM",
+            "a2": "DO",
+            "numberCode": 214,
+            "title": "Dominican Republic"
+        }
+    },
+    {
+        "pk": 67,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0415\u0433\u0438\u043f\u0435\u0442",
+            "a3": "EGY",
+            "a2": "EG",
+            "numberCode": 818,
+            "title": "Egypt"
+        }
+    },
+    {
+        "pk": 68,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0417\u0430\u043c\u0431\u0438\u044f",
+            "a3": "ZMB",
+            "a2": "ZM",
+            "numberCode": 894,
+            "title": "Zambia"
+        }
+    },
+    {
+        "pk": 69,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0421\u0430\u0445\u0430\u0440\u0430",
+            "a3": "ESH",
+            "a2": "EH",
+            "numberCode": 732,
+            "title": "Western Sahara"
+        }
+    },
+    {
+        "pk": 70,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0417\u0438\u043c\u0431\u0430\u0431\u0432\u0435",
+            "a3": "ZWE",
+            "a2": "ZW",
+            "numberCode": 716,
+            "title": "Zimbabwe"
+        }
+    },
+    {
+        "pk": 71,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0418\u0437\u0440\u0430\u0438\u043b\u044c",
+            "a3": "ISR",
+            "a2": "IL",
+            "numberCode": 376,
+            "title": "Israel"
+        }
+    },
+    {
+        "pk": 72,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0418\u043d\u0434\u0438\u044f",
+            "a3": "IND",
+            "a2": "IN",
+            "numberCode": 356,
+            "title": "India"
+        }
+    },
+    {
+        "pk": 73,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u044f",
+            "a3": "IDN",
+            "a2": "ID",
+            "numberCode": 360,
+            "title": "Indonesia"
+        }
+    },
+    {
+        "pk": 74,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0418\u043e\u0440\u0434\u0430\u043d\u0438\u044f",
+            "a3": "JOR",
+            "a2": "JO",
+            "numberCode": 400,
+            "title": "Jordan"
+        }
+    },
+    {
+        "pk": 75,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0418\u0440\u0430\u043a",
+            "a3": "IRQ",
+            "a2": "IQ",
+            "numberCode": 368,
+            "title": "Iraq"
+        }
+    },
+    {
+        "pk": 76,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0418\u0440\u0430\u043d",
+            "a3": "IRN",
+            "a2": "IR",
+            "numberCode": 364,
+            "title": "Iran"
+        }
+    },
+    {
+        "pk": 77,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0418\u0440\u043b\u0430\u043d\u0434\u0438\u044f",
+            "a3": "IRL",
+            "a2": "IE",
+            "numberCode": 372,
+            "title": "Ireland"
+        }
+    },
+    {
+        "pk": 78,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f",
+            "a3": "ISL",
+            "a2": "IS",
+            "numberCode": 352,
+            "title": "Iceland"
+        }
+    },
+    {
+        "pk": 79,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f",
+            "a3": "ESP",
+            "a2": "ES",
+            "numberCode": 724,
+            "title": "Spain"
+        }
+    },
+    {
+        "pk": 80,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0418\u0442\u0430\u043b\u0438\u044f",
+            "a3": "ITA",
+            "a2": "IT",
+            "numberCode": 380,
+            "title": "Italy"
+        }
+    },
+    {
+        "pk": 81,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0419\u0435\u043c\u0435\u043d",
+            "a3": "YEM",
+            "a2": "YE",
+            "numberCode": 887,
+            "title": "Yemen"
+        }
+    },
+    {
+        "pk": 82,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u0430\u0431\u043e-\u0412\u0435\u0440\u0434\u0435",
+            "a3": "CPV",
+            "a2": "CV",
+            "numberCode": 132,
+            "title": "Cape Verde"
+        }
+    },
+    {
+        "pk": 83,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+            "a3": "KAZ",
+            "a2": "KZ",
+            "numberCode": 398,
+            "title": "Kazakhstan"
+        }
+    },
+    {
+        "pk": 84,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u0430\u0439\u043c\u0430\u043d\u043e\u0432\u044b \u043e-\u0432\u0430 (GB)",
+            "a3": "CYM",
+            "a2": "KY",
+            "numberCode": 136,
+            "title": "Cayman Islands"
+        }
+    },
+    {
+        "pk": 85,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430",
+            "a3": "KHM",
+            "a2": "KH",
+            "numberCode": 116,
+            "title": "Cambodia"
+        }
+    },
+    {
+        "pk": 86,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u0430\u043c\u0435\u0440\u0443\u043d",
+            "a3": "CMR",
+            "a2": "CM",
+            "numberCode": 120,
+            "title": "Cameroon"
+        }
+    },
+    {
+        "pk": 87,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u0430\u043d\u0430\u0434\u0430",
+            "a3": "CAN",
+            "a2": "CA",
+            "numberCode": 124,
+            "title": "Canada"
+        }
+    },
+    {
+        "pk": 88,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u0430\u0442\u0430\u0440",
+            "a3": "QAT",
+            "a2": "QA",
+            "numberCode": 634,
+            "title": "Qatar"
+        }
+    },
+    {
+        "pk": 89,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u0435\u043d\u0438\u044f",
+            "a3": "KEN",
+            "a2": "KE",
+            "numberCode": 404,
+            "title": "Kenya"
+        }
+    },
+    {
+        "pk": 90,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u0438\u043f\u0440",
+            "a3": "CYP",
+            "a2": "CY",
+            "numberCode": 196,
+            "title": "Cyprus"
+        }
+    },
+    {
+        "pk": 91,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u0438\u0440\u0433\u0438\u0437\u0441\u0442\u0430\u043d",
+            "a3": "KGZ",
+            "a2": "KG",
+            "numberCode": 417,
+            "title": "Kirghizstan"
+        }
+    },
+    {
+        "pk": 92,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u0438\u0440\u0438\u0431\u0430\u0442\u0438",
+            "a3": "KIR",
+            "a2": "KI",
+            "numberCode": 296,
+            "title": "Kiribati"
+        }
+    },
+    {
+        "pk": 93,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u0438\u0442\u0430\u0439",
+            "a3": "CHN",
+            "a2": "CN",
+            "numberCode": 156,
+            "title": "China"
+        }
+    },
+    {
+        "pk": 94,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u043e\u043a\u043e\u0441\u043e\u0432\u044b\u0435 (\u041a\u0438\u0438\u043b\u0438\u043d\u0433) \u043e-\u0432\u0430 (AU)",
+            "a3": "CCK",
+            "a2": "CC",
+            "numberCode": 166,
+            "title": "Cocos (Keeling) Islands"
+        }
+    },
+    {
+        "pk": 95,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u043e\u043b\u0443\u043c\u0431\u0438\u044f",
+            "a3": "COL",
+            "a2": "CO",
+            "numberCode": 170,
+            "title": "Colombia"
+        }
+    },
+    {
+        "pk": 96,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u043e\u043c\u043e\u0440\u0441\u043a\u0438\u0435 \u043e-\u0432\u0430",
+            "a3": "COM",
+            "a2": "KM",
+            "numberCode": 174,
+            "title": "Comoros"
+        }
+    },
+    {
+        "pk": 97,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u043e\u043d\u0433\u043e",
+            "a3": "COG",
+            "a2": "CG",
+            "numberCode": 178,
+            "title": "Congo"
+        }
+    },
+    {
+        "pk": 98,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u043e\u0441\u0442\u0430-\u0420\u0438\u043a\u0430",
+            "a3": "CRI",
+            "a2": "CR",
+            "numberCode": 188,
+            "title": "Costa Rica"
+        }
+    },
+    {
+        "pk": 99,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u043e\u0442-\u0434'\u0418\u0432\u0443\u0430\u0440",
+            "a3": "CIV",
+            "a2": "CI",
+            "numberCode": 384,
+            "title": "Cote d'Ivoire"
+        }
+    },
+    {
+        "pk": 100,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u0443\u0431\u0430",
+            "a3": "CUB",
+            "a2": "CU",
+            "numberCode": 192,
+            "title": "Cuba"
+        }
+    },
+    {
+        "pk": 101,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u0443\u0432\u0435\u0439\u0442",
+            "a3": "KWT",
+            "a2": "KW",
+            "numberCode": 414,
+            "title": "Kuwait"
+        }
+    },
+    {
+        "pk": 102,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041a\u0443\u043a\u0430 \u043e-\u0432\u0430 (NZ)",
+            "a3": "COK",
+            "a2": "CK",
+            "numberCode": 184,
+            "title": "Cook Islands"
+        }
+    },
+    {
+        "pk": 103,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041b\u0430\u043e\u0441",
+            "a3": "LAO",
+            "a2": "LA",
+            "numberCode": 418,
+            "title": "Lao People's Democratic Republic"
+        }
+    },
+    {
+        "pk": 104,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041b\u0430\u0442\u0432\u0438\u044f",
+            "a3": "LVA",
+            "a2": "LV",
+            "numberCode": 428,
+            "title": "Latvia"
+        }
+    },
+    {
+        "pk": 105,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041b\u0435\u0441\u043e\u0442\u043e",
+            "a3": "LSO",
+            "a2": "LS",
+            "numberCode": 426,
+            "title": "Lesotho"
+        }
+    },
+    {
+        "pk": 106,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041b\u0438\u0431\u0435\u0440\u0438\u044f",
+            "a3": "LBR",
+            "a2": "LR",
+            "numberCode": 430,
+            "title": "Liberia"
+        }
+    },
+    {
+        "pk": 107,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041b\u0438\u0432\u0430\u043d",
+            "a3": "LBN",
+            "a2": "LB",
+            "numberCode": 422,
+            "title": "Lebanon"
+        }
+    },
+    {
+        "pk": 108,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041b\u0438\u0432\u0438\u044f",
+            "a3": "LBY",
+            "a2": "LY",
+            "numberCode": 434,
+            "title": "Libyan Arab Jamahiriya"
+        }
+    },
+    {
+        "pk": 109,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041b\u0438\u0442\u0432\u0430",
+            "a3": "LTU",
+            "a2": "LT",
+            "numberCode": 440,
+            "title": "Lithuania"
+        }
+    },
+    {
+        "pk": 110,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041b\u0438\u0445\u0442\u0435\u043d\u0448\u0442\u0435\u0439\u043d",
+            "a3": "LIE",
+            "a2": "LI",
+            "numberCode": 438,
+            "title": "Liechtenstein"
+        }
+    },
+    {
+        "pk": 111,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0433",
+            "a3": "LUX",
+            "a2": "LU",
+            "numberCode": 442,
+            "title": "Luxembourg"
+        }
+    },
+    {
+        "pk": 112,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u0430\u0432\u0440\u0438\u043a\u0438\u0439",
+            "a3": "MUS",
+            "a2": "MU",
+            "numberCode": 480,
+            "title": "Mauritius"
+        }
+    },
+    {
+        "pk": 113,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u0430\u0432\u0440\u0438\u0442\u0430\u043d\u0438\u044f",
+            "a3": "MRT",
+            "a2": "MR",
+            "numberCode": 478,
+            "title": "Mauritania"
+        }
+    },
+    {
+        "pk": 114,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u0430\u0434\u0430\u0433\u0430\u0441\u043a\u0430\u0440",
+            "a3": "MDG",
+            "a2": "MG",
+            "numberCode": 450,
+            "title": "Madagascar"
+        }
+    },
+    {
+        "pk": 115,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u0430\u0439\u043e\u0442\u0442\u0430 \u043e. (KM)",
+            "a3": "MYT",
+            "a2": "YT",
+            "numberCode": 175,
+            "title": "Mayotte"
+        }
+    },
+    {
+        "pk": 116,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u0430\u043a\u0430\u043e (PT)",
+            "a3": "MAC",
+            "a2": "MO",
+            "numberCode": 446,
+            "title": "Macau (Macao)"
+        }
+    },
+    {
+        "pk": 117,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u044f",
+            "a3": "MKD",
+            "a2": "MK",
+            "numberCode": 807,
+            "title": "Macedonia"
+        }
+    },
+    {
+        "pk": 118,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u0430\u043b\u0430\u0432\u0438",
+            "a3": "MWI",
+            "a2": "MW",
+            "numberCode": 454,
+            "title": "Malawi"
+        }
+    },
+    {
+        "pk": 119,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f",
+            "a3": "MYS",
+            "a2": "MY",
+            "numberCode": 458,
+            "title": "Malaysia"
+        }
+    },
+    {
+        "pk": 120,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u0430\u043b\u0438",
+            "a3": "MLI",
+            "a2": "ML",
+            "numberCode": 466,
+            "title": "Mali"
+        }
+    },
+    {
+        "pk": 121,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b",
+            "a3": "MDV",
+            "a2": "MV",
+            "numberCode": 462,
+            "title": "Maldives"
+        }
+    },
+    {
+        "pk": 122,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u0430\u043b\u044c\u0442\u0430",
+            "a3": "MLT",
+            "a2": "MT",
+            "numberCode": 470,
+            "title": "Malta"
+        }
+    },
+    {
+        "pk": 123,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u0430\u0440\u043e\u043a\u043a\u043e",
+            "a3": "MAR",
+            "a2": "MA",
+            "numberCode": 504,
+            "title": "Marocco"
+        }
+    },
+    {
+        "pk": 124,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u0430\u0440\u0442\u0438\u043d\u0438\u043a\u0430",
+            "a3": "MTQ",
+            "a2": "MQ",
+            "numberCode": 474,
+            "title": "Martinique"
+        }
+    },
+    {
+        "pk": 125,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u0430\u0440\u0448\u0430\u043b\u043b\u043e\u0432\u044b \u043e-\u0432\u0430",
+            "a3": "MHL",
+            "a2": "MH",
+            "numberCode": 584,
+            "title": "Marshall Islands"
+        }
+    },
+    {
+        "pk": 126,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u0435\u043a\u0441\u0438\u043a\u0430",
+            "a3": "MEX",
+            "a2": "MX",
+            "numberCode": 484,
+            "title": "Mexico"
+        }
+    },
+    {
+        "pk": 127,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u0438\u043a\u0440\u043e\u043d\u0435\u0437\u0438\u044f (US)",
+            "a3": "FSM",
+            "a2": "FM",
+            "numberCode": 583,
+            "title": "Federated States of Micronesia"
+        }
+    },
+    {
+        "pk": 128,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u043e\u0437\u0430\u043c\u0431\u0438\u043a",
+            "a3": "MOZ",
+            "a2": "MZ",
+            "numberCode": 508,
+            "title": "Mozambique"
+        }
+    },
+    {
+        "pk": 129,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u043e\u043b\u0434\u043e\u0432\u0430",
+            "a3": "MDA",
+            "a2": "MD",
+            "numberCode": 498,
+            "title": "Moldova"
+        }
+    },
+    {
+        "pk": 130,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u043e\u043d\u0430\u043a\u043e",
+            "a3": "MCO",
+            "a2": "MC",
+            "numberCode": 492,
+            "title": "Monaco"
+        }
+    },
+    {
+        "pk": 131,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f",
+            "a3": "MNG",
+            "a2": "MN",
+            "numberCode": 496,
+            "title": "Mongolia"
+        }
+    },
+    {
+        "pk": 132,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u043e\u043d\u0441\u0435\u0440\u0440\u0430\u0442 \u043e. (GB)",
+            "a3": "MSR",
+            "a2": "MS",
+            "numberCode": 500,
+            "title": "Montserrat"
+        }
+    },
+    {
+        "pk": 133,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041c\u044c\u044f\u043d\u043c\u0430",
+            "a3": "MMR",
+            "a2": "MM",
+            "numberCode": 104,
+            "title": "Myanmar"
+        }
+    },
+    {
+        "pk": 134,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041d\u0430\u043c\u0438\u0431\u0438\u044f",
+            "a3": "NAM",
+            "a2": "NA",
+            "numberCode": 516,
+            "title": "Namibia"
+        }
+    },
+    {
+        "pk": 135,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041d\u0430\u0443\u0440\u0443",
+            "a3": "NRU",
+            "a2": "NR",
+            "numberCode": 520,
+            "title": "Nauru"
+        }
+    },
+    {
+        "pk": 136,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041d\u0435\u043f\u0430\u043b",
+            "a3": "NPL",
+            "a2": "NP",
+            "numberCode": 524,
+            "title": "Nepal"
+        }
+    },
+    {
+        "pk": 137,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041d\u0438\u0433\u0435\u0440",
+            "a3": "NER",
+            "a2": "NE",
+            "numberCode": 562,
+            "title": "Niger"
+        }
+    },
+    {
+        "pk": 138,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041d\u0438\u0433\u0435\u0440\u0438\u044f",
+            "a3": "NGA",
+            "a2": "NG",
+            "numberCode": 566,
+            "title": "Nigeria"
+        }
+    },
+    {
+        "pk": 139,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b",
+            "a3": "NLD",
+            "a2": "NL",
+            "numberCode": 528,
+            "title": "Netherlands (Holland)"
+        }
+    },
+    {
+        "pk": 140,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041d\u0438\u043a\u0430\u0440\u0430\u0433\u0443\u0430",
+            "a3": "NIC",
+            "a2": "NI",
+            "numberCode": 558,
+            "title": "Nicaragua"
+        }
+    },
+    {
+        "pk": 141,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041d\u0438\u0443\u044d \u043e. (NZ)",
+            "a3": "NIU",
+            "a2": "NU",
+            "numberCode": 570,
+            "title": "Niue"
+        }
+    },
+    {
+        "pk": 142,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041d\u043e\u0432\u0430\u044f \u0417\u0435\u043b\u0430\u043d\u0434\u0438\u044f",
+            "a3": "NZL",
+            "a2": "NZ",
+            "numberCode": 554,
+            "title": "New Zealand"
+        }
+    },
+    {
+        "pk": 143,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041d\u043e\u0432\u0430\u044f \u041a\u0430\u043b\u0435\u0434\u043e\u043d\u0438\u044f \u043e. (FR)",
+            "a3": "NCL",
+            "a2": "NC",
+            "numberCode": 540,
+            "title": "New Caledonia"
+        }
+    },
+    {
+        "pk": 144,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f",
+            "a3": "NOR",
+            "a2": "NO",
+            "numberCode": 578,
+            "title": "Norway"
+        }
+    },
+    {
+        "pk": 145,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041d\u043e\u0440\u0444\u043e\u043b\u043a \u043e. (AU)",
+            "a3": "NFK",
+            "a2": "NF",
+            "numberCode": 574,
+            "title": "Norfolk Island"
+        }
+    },
+    {
+        "pk": 146,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0410\u0440\u0430\u0431\u0441\u043a\u0438\u0435 \u042d\u043c\u0438\u0440\u0430\u0442\u044b",
+            "a3": "ARE",
+            "a2": "AE",
+            "numberCode": 784,
+            "title": "United Arab Emirates"
+        }
+    },
+    {
+        "pk": 147,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041e\u043c\u0430\u043d",
+            "a3": "OMN",
+            "a2": "OM",
+            "numberCode": 512,
+            "title": "Oman"
+        }
+    },
+    {
+        "pk": 148,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041f\u0430\u043a\u0438\u0441\u0442\u0430\u043d",
+            "a3": "PAK",
+            "a2": "PK",
+            "numberCode": 586,
+            "title": "Pakistan"
+        }
+    },
+    {
+        "pk": 149,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041f\u0430\u043b\u0430\u0443 (US)",
+            "a3": "PLW",
+            "a2": "PW",
+            "numberCode": 585,
+            "title": "Palau"
+        }
+    },
+    {
+        "pk": 150,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041f\u0430\u043d\u0430\u043c\u0430",
+            "a3": "PAN",
+            "a2": "PA",
+            "numberCode": 591,
+            "title": "Panama"
+        }
+    },
+    {
+        "pk": 151,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041f\u0430\u043f\u0443\u0430-\u041d\u043e\u0432\u0430\u044f \u0413\u0432\u0438\u043d\u0435\u044f",
+            "a3": "PNG",
+            "a2": "PG",
+            "numberCode": 598,
+            "title": "Papua New Guinea"
+        }
+    },
+    {
+        "pk": 152,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041f\u0430\u0440\u0430\u0433\u0432\u0430\u0439",
+            "a3": "PRY",
+            "a2": "PY",
+            "numberCode": 600,
+            "title": "Paraguay"
+        }
+    },
+    {
+        "pk": 153,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041f\u0435\u0440\u0443",
+            "a3": "PER",
+            "a2": "PE",
+            "numberCode": 604,
+            "title": "Peru"
+        }
+    },
+    {
+        "pk": 154,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041f\u0438\u0442\u043a\u044d\u0440\u043d \u043e-\u0432\u0430 (GB)",
+            "a3": "PCN",
+            "a2": "PN",
+            "numberCode": 612,
+            "title": "Pitcairn"
+        }
+    },
+    {
+        "pk": 155,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041f\u043e\u043b\u044c\u0448\u0430",
+            "a3": "POL",
+            "a2": "PL",
+            "numberCode": 616,
+            "title": "Poland"
+        }
+    },
+    {
+        "pk": 156,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041f\u043e\u0440\u0442\u0443\u0433\u0430\u043b\u0438\u044f",
+            "a3": "PRT",
+            "a2": "PT",
+            "numberCode": 620,
+            "title": "Portugal"
+        }
+    },
+    {
+        "pk": 157,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u041f\u0443\u044d\u0440\u0442\u043e-\u0420\u0438\u043a\u043e (US)",
+            "a3": "PRI",
+            "a2": "PR",
+            "numberCode": 630,
+            "title": "Puerto Rico"
+        }
+    },
+    {
+        "pk": 158,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0420\u0435\u044e\u043d\u044c\u043e\u043d \u043e. (FR)",
+            "a3": "REU",
+            "a2": "RE",
+            "numberCode": 638,
+            "title": "Reunion"
+        }
+    },
+    {
+        "pk": 159,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u0430 \u043e. (AU)",
+            "a3": "CXR",
+            "a2": "CX",
+            "numberCode": 162,
+            "title": "Christmas Island"
+        }
+    },
+    {
+        "pk": 160,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0420\u043e\u0441\u0441\u0438\u044f",
+            "a3": "RUS",
+            "a2": "RU",
+            "numberCode": 643,
+            "title": "Russia (Russian Federation)"
+        }
+    },
+    {
+        "pk": 161,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0420\u0443\u0430\u043d\u0434\u0430",
+            "a3": "RWA",
+            "a2": "RW",
+            "numberCode": 646,
+            "title": "Rwanda"
+        }
+    },
+    {
+        "pk": 162,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0420\u0443\u043c\u044b\u043d\u0438\u044f",
+            "a3": "ROM",
+            "a2": "RO",
+            "numberCode": 642,
+            "title": "Romania"
+        }
+    },
+    {
+        "pk": 163,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0430\u043b\u044c\u0432\u0430\u0434\u043e\u0440",
+            "a3": "SLV",
+            "a2": "SV",
+            "numberCode": 222,
+            "title": "El Salvador"
+        }
+    },
+    {
+        "pk": 164,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0430\u043c\u043e\u0430",
+            "a3": "WSM",
+            "a2": "WS",
+            "numberCode": 882,
+            "title": "Samoa"
+        }
+    },
+    {
+        "pk": 165,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0430\u043d \u041c\u0430\u0440\u0438\u043d\u043e",
+            "a3": "SMR",
+            "a2": "SM",
+            "numberCode": 674,
+            "title": "San Marino"
+        }
+    },
+    {
+        "pk": 166,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0430\u043d-\u0422\u043e\u043c\u0435 \u0438 \u041f\u0440\u0438\u043d\u0441\u0438\u043f\u0438",
+            "a3": "STP",
+            "a2": "ST",
+            "numberCode": 678,
+            "title": "Sao Tomea and Principe"
+        }
+    },
+    {
+        "pk": 167,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0430\u0443\u0434\u043e\u0432\u0441\u043a\u0430\u044f \u0410\u0440\u0430\u0432\u0438\u044f",
+            "a3": "SAU",
+            "a2": "SA",
+            "numberCode": 682,
+            "title": "Saudi Arabia"
+        }
+    },
+    {
+        "pk": 168,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0432\u0430\u0437\u0438\u043b\u0435\u043d\u0434",
+            "a3": "SWZ",
+            "a2": "SZ",
+            "numberCode": 748,
+            "title": "Swaziland"
+        }
+    },
+    {
+        "pk": 169,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0432\u0430\u043b\u0431\u0430\u0440\u0434 \u0438 \u042f\u043d \u041c\u0435\u0439\u0435\u043d \u043e-\u0432\u0430 (NO)",
+            "a3": "SJM",
+            "a2": "SJ",
+            "numberCode": 744,
+            "title": "Svalbard and Jan Mayen Islands"
+        }
+    },
+    {
+        "pk": 170,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0432\u044f\u0442\u043e\u0439 \u0415\u043b\u0435\u043d\u044b \u043e. (GB)",
+            "a3": "SHN",
+            "a2": "SH",
+            "numberCode": 654,
+            "title": "St. Helena"
+        }
+    },
+    {
+        "pk": 171,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041a\u043e\u0440\u0435\u044f (\u041a\u041d\u0414\u0420)",
+            "a3": "PRK",
+            "a2": "KP",
+            "numberCode": 408,
+            "title": "Korea (North)"
+        }
+    },
+    {
+        "pk": 172,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0435 \u041c\u0430\u0440\u0438\u0430\u043d\u0441\u043a\u0438\u0435 \u043e-\u0432\u0430 (US)",
+            "a3": "MNP",
+            "a2": "MP",
+            "numberCode": 580,
+            "title": "Northern Mariana Islands"
+        }
+    },
+    {
+        "pk": 173,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0435\u0439\u0448\u0435\u043b\u044b",
+            "a3": "SYC",
+            "a2": "SC",
+            "numberCode": 690,
+            "title": "Seychelles"
+        }
+    },
+    {
+        "pk": 174,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0435\u043d-\u0412\u0438\u043d\u0441\u0435\u043d\u0442 \u0438 \u0413\u0440\u0435\u043d\u0430\u0434\u0438\u043d\u044b",
+            "a3": "VCT",
+            "a2": "VC",
+            "numberCode": 670,
+            "title": "Saint Vincent and the Grenadines"
+        }
+    },
+    {
+        "pk": 175,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0435\u043d-\u041f\u044c\u0435\u0440 \u0438 \u041c\u0438\u043a\u0435\u043b\u043e\u043d (FR)",
+            "a3": "SPM",
+            "a2": "PM",
+            "numberCode": 666,
+            "title": "St. Pierre and Miquelon"
+        }
+    },
+    {
+        "pk": 176,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0435\u043d\u0435\u0433\u0430\u043b",
+            "a3": "SEN",
+            "a2": "SN",
+            "numberCode": 686,
+            "title": "Senegal"
+        }
+    },
+    {
+        "pk": 177,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0435\u043d\u0442-\u041a\u0440\u0438\u0441\u0442\u043e\u0444\u0435\u0440 \u0438 \u041d\u0435\u0432\u0438\u0441",
+            "a3": "KNA",
+            "a2": "KN",
+            "numberCode": 659,
+            "title": "Saint Kitts (Christopher) and Nevis"
+        }
+    },
+    {
+        "pk": 178,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0435\u043d\u0442-\u041b\u044e\u0441\u0438\u044f",
+            "a3": "LCA",
+            "a2": "LC",
+            "numberCode": 662,
+            "title": "Saint Lucia"
+        }
+    },
+    {
+        "pk": 179,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0438\u043d\u0433\u0430\u043f\u0443\u0440",
+            "a3": "SGP",
+            "a2": "SG",
+            "numberCode": 702,
+            "title": "Singapore"
+        }
+    },
+    {
+        "pk": 180,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0438\u0440\u0438\u044f",
+            "a3": "SYR",
+            "a2": "SY",
+            "numberCode": 760,
+            "title": "Syria"
+        }
+    },
+    {
+        "pk": 181,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f",
+            "a3": "SVK",
+            "a2": "SK",
+            "numberCode": 703,
+            "title": "Slovak Republic"
+        }
+    },
+    {
+        "pk": 182,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u043b\u043e\u0432\u0435\u043d\u0438\u044f",
+            "a3": "SVN",
+            "a2": "SI",
+            "numberCode": 705,
+            "title": "Slovenia"
+        }
+    },
+    {
+        "pk": 183,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "a3": "USA",
+            "a2": "US",
+            "numberCode": 840,
+            "title": "United States of America"
+        }
+    },
+    {
+        "pk": 184,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u043e\u043b\u043e\u043c\u043e\u043d\u043e\u0432\u044b \u043e-\u0432\u0430",
+            "a3": "SLB",
+            "a2": "SB",
+            "numberCode": 90,
+            "title": "Solomon Islands"
+        }
+    },
+    {
+        "pk": 185,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u043e\u043c\u0430\u043b\u0438",
+            "a3": "SOM",
+            "a2": "SO",
+            "numberCode": 706,
+            "title": "Somali"
+        }
+    },
+    {
+        "pk": 186,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0443\u0434\u0430\u043d",
+            "a3": "SDN",
+            "a2": "SD",
+            "numberCode": 736,
+            "title": "Sudan"
+        }
+    },
+    {
+        "pk": 187,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u0443\u0440\u0438\u043d\u0430\u043c",
+            "a3": "SUR",
+            "a2": "SR",
+            "numberCode": 740,
+            "title": "Surinam"
+        }
+    },
+    {
+        "pk": 188,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0421\u044c\u0435\u0440\u0440\u0430-\u041b\u0435\u043e\u043d\u0435",
+            "a3": "SLE",
+            "a2": "SL",
+            "numberCode": 694,
+            "title": "Sierra Leone"
+        }
+    },
+    {
+        "pk": 189,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d",
+            "a3": "TJK",
+            "a2": "TJ",
+            "numberCode": 762,
+            "title": "Tadjikistan"
+        }
+    },
+    {
+        "pk": 190,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0422\u0430\u0438\u043b\u0430\u043d\u0434",
+            "a3": "THA",
+            "a2": "TH",
+            "numberCode": 764,
+            "title": "Thailand"
+        }
+    },
+    {
+        "pk": 191,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0422\u0430\u0439\u0432\u0430\u043d\u044c",
+            "a3": "TWN",
+            "a2": "TW",
+            "numberCode": 158,
+            "title": "Taiwan"
+        }
+    },
+    {
+        "pk": 192,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f",
+            "a3": "TZA",
+            "a2": "TZ",
+            "numberCode": 834,
+            "title": "Tanzania"
+        }
+    },
+    {
+        "pk": 193,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0422\u0435\u0440\u043a\u0441 \u0438 \u041a\u0430\u0439\u043a\u043e\u0441 \u043e-\u0432\u0430 (GB)",
+            "a3": "TCA",
+            "a2": "TC",
+            "numberCode": 796,
+            "title": "Turks and Caicos Islands"
+        }
+    },
+    {
+        "pk": 194,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0422\u043e\u0433\u043e",
+            "a3": "TGO",
+            "a2": "TG",
+            "numberCode": 768,
+            "title": "Togo"
+        }
+    },
+    {
+        "pk": 195,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0422\u043e\u043a\u0435\u043b\u0430\u0443 \u043e-\u0432\u0430 (NZ)",
+            "a3": "TKL",
+            "a2": "TK",
+            "numberCode": 772,
+            "title": "Tokelau"
+        }
+    },
+    {
+        "pk": 196,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0422\u043e\u043d\u0433\u0430",
+            "a3": "TON",
+            "a2": "TO",
+            "numberCode": 776,
+            "title": "Tonga"
+        }
+    },
+    {
+        "pk": 197,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0422\u0440\u0438\u043d\u0438\u0434\u0430\u0434 \u0438 \u0422\u043e\u0431\u0430\u0433\u043e",
+            "a3": "TTO",
+            "a2": "TT",
+            "numberCode": 780,
+            "title": "Trinidad and Tobago"
+        }
+    },
+    {
+        "pk": 198,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0422\u0443\u0432\u0430\u043b\u0443",
+            "a3": "TUV",
+            "a2": "TV",
+            "numberCode": 798,
+            "title": "Tuvalu"
+        }
+    },
+    {
+        "pk": 199,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0422\u0443\u043d\u0438\u0441",
+            "a3": "TUN",
+            "a2": "TN",
+            "numberCode": 788,
+            "title": "Tunisia"
+        }
+    },
+    {
+        "pk": 200,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0422\u0443\u0440\u043a\u043c\u0435\u043d\u0438\u0441\u0442\u0430\u043d",
+            "a3": "TKM",
+            "a2": "TM",
+            "numberCode": 795,
+            "title": "Turkmenistan"
+        }
+    },
+    {
+        "pk": 201,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0422\u0443\u0440\u0446\u0438\u044f",
+            "a3": "TUR",
+            "a2": "TR",
+            "numberCode": 792,
+            "title": "Turkey"
+        }
+    },
+    {
+        "pk": 202,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0423\u0433\u0430\u043d\u0434\u0430",
+            "a3": "UGA",
+            "a2": "UG",
+            "numberCode": 800,
+            "title": "Uganda"
+        }
+    },
+    {
+        "pk": 203,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d",
+            "a3": "UZB",
+            "a2": "UZ",
+            "numberCode": 860,
+            "title": "Uzbekistan"
+        }
+    },
+    {
+        "pk": 204,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0423\u043a\u0440\u0430\u0438\u043d\u0430",
+            "a3": "UKR",
+            "a2": "UA",
+            "numberCode": 804,
+            "title": "Ukraine"
+        }
+    },
+    {
+        "pk": 205,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0423\u043e\u043b\u043b\u0438\u0441 \u0438 \u0424\u0443\u0442\u0443\u043d\u0430 \u043e-\u0432\u0430 (FR)",
+            "a3": "WLF",
+            "a2": "WF",
+            "numberCode": 876,
+            "title": "Wallis and Futuna Islands"
+        }
+    },
+    {
+        "pk": 206,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0423\u0440\u0443\u0433\u0432\u0430\u0439",
+            "a3": "URY",
+            "a2": "UY",
+            "numberCode": 858,
+            "title": "Uruguay"
+        }
+    },
+    {
+        "pk": 207,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0424\u0430\u0440\u0435\u0440\u0441\u043a\u0438\u0435 \u043e-\u0432\u0430 (DK)",
+            "a3": "FRO",
+            "a2": "FO",
+            "numberCode": 234,
+            "title": "Faroe Islands"
+        }
+    },
+    {
+        "pk": 208,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0424\u0438\u0434\u0436\u0438",
+            "a3": "FJI",
+            "a2": "FJ",
+            "numberCode": 242,
+            "title": "Fiji"
+        }
+    },
+    {
+        "pk": 209,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d\u044b",
+            "a3": "PHL",
+            "a2": "PH",
+            "numberCode": 608,
+            "title": "Philippines"
+        }
+    },
+    {
+        "pk": 210,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+            "a3": "FIN",
+            "a2": "FI",
+            "numberCode": 246,
+            "title": "Finland"
+        }
+    },
+    {
+        "pk": 211,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0424\u043e\u043b\u043a\u043b\u0435\u043d\u0434\u0441\u043a\u0438\u0435 (\u041c\u0430\u043b\u044c\u0432\u0438\u043d\u0441\u043a\u0438\u0435) \u043e-\u0432\u0430 (GB/AR)",
+            "a3": "FLK",
+            "a2": "FK",
+            "numberCode": 238,
+            "title": "Falkland (Malvinas) Islands"
+        }
+    },
+    {
+        "pk": 212,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0424\u0440\u0430\u043d\u0446\u0438\u044f",
+            "a3": "FRA",
+            "a2": "FR",
+            "numberCode": 250,
+            "title": "France"
+        }
+    },
+    {
+        "pk": 213,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0430\u044f \u0413\u0432\u0438\u0430\u043d\u0430 (FR)",
+            "a3": "GUF",
+            "a2": "GF",
+            "numberCode": 254,
+            "title": "French Guyana"
+        }
+    },
+    {
+        "pk": 214,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0430\u044f \u041f\u043e\u043b\u0438\u043d\u0435\u0437\u0438\u044f",
+            "a3": "PYF",
+            "a2": "PF",
+            "numberCode": 258,
+            "title": "French Polynesia"
+        }
+    },
+    {
+        "pk": 215,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0425\u0435\u0440\u0434 \u0438 \u041c\u0430\u043a\u0434\u043e\u043d\u0430\u043b\u044c\u0434 \u043e-\u0432\u0430 (AU)",
+            "a3": "HMD",
+            "a2": "HM",
+            "numberCode": 334,
+            "title": "Heard and McDonald Islands"
+        }
+    },
+    {
+        "pk": 216,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0425\u043e\u0440\u0432\u0430\u0442\u0438\u044f",
+            "a3": "HRV",
+            "a2": "HR",
+            "numberCode": 191,
+            "title": "Croatia"
+        }
+    },
+    {
+        "pk": 217,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u043e-\u0430\u0444\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+            "a3": "CAF",
+            "a2": "CF",
+            "numberCode": 140,
+            "title": "Central African Republic"
+        }
+    },
+    {
+        "pk": 218,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0427\u0430\u0434",
+            "a3": "TCD",
+            "a2": "TD",
+            "numberCode": 148,
+            "title": "Chad"
+        }
+    },
+    {
+        "pk": 219,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0427\u0435\u0445\u0438\u044f",
+            "a3": "CZE",
+            "a2": "CZ",
+            "numberCode": 203,
+            "title": "Czech Republic"
+        }
+    },
+    {
+        "pk": 220,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0427\u0438\u043b\u0438",
+            "a3": "CHL",
+            "a2": "CL",
+            "numberCode": 152,
+            "title": "Chili"
+        }
+    },
+    {
+        "pk": 221,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0438\u044f",
+            "a3": "CHE",
+            "a2": "CH",
+            "numberCode": 756,
+            "title": "Switzerland"
+        }
+    },
+    {
+        "pk": 222,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0428\u0432\u0435\u0446\u0438\u044f",
+            "a3": "SWE",
+            "a2": "SE",
+            "numberCode": 752,
+            "title": "Sweden"
+        }
+    },
+    {
+        "pk": 223,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430",
+            "a3": "LKA",
+            "a2": "LK",
+            "numberCode": 144,
+            "title": "Sri Lanka"
+        }
+    },
+    {
+        "pk": 224,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u042d\u043a\u0432\u0430\u0434\u043e\u0440",
+            "a3": "ECU",
+            "a2": "EC",
+            "numberCode": 218,
+            "title": "Ecuador"
+        }
+    },
+    {
+        "pk": 225,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u042d\u043a\u0432\u0430\u0442\u043e\u0440\u0438\u0430\u043b\u044c\u043d\u0430\u044f \u0413\u0432\u0438\u043d\u0435\u044f",
+            "a3": "GNQ",
+            "a2": "GQ",
+            "numberCode": 226,
+            "title": "Equatorial Guinea"
+        }
+    },
+    {
+        "pk": 226,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u042d\u0440\u0438\u0442\u0440\u0438\u044f",
+            "a3": "ERI",
+            "a2": "ER",
+            "numberCode": 232,
+            "title": "Eritrea"
+        }
+    },
+    {
+        "pk": 227,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u042d\u0441\u0442\u043e\u043d\u0438\u044f",
+            "a3": "EST",
+            "a2": "EE",
+            "numberCode": 233,
+            "title": "Estonia"
+        }
+    },
+    {
+        "pk": 228,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u042d\u0444\u0438\u043e\u043f\u0438\u044f",
+            "a3": "ETH",
+            "a2": "ET",
+            "numberCode": 231,
+            "title": "Ethiopia"
+        }
+    },
+    {
+        "pk": 229,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u042e\u0433\u043e\u0441\u043b\u0430\u0432\u0438\u044f",
+            "a3": "YUG",
+            "a2": "YU",
+            "numberCode": 891,
+            "title": "Yugoslavia"
+        }
+    },
+    {
+        "pk": 230,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u042e\u0436\u043d\u0430\u044f \u0410\u0444\u0440\u0438\u043a\u0430",
+            "a3": "ZAF",
+            "a2": "ZA",
+            "numberCode": 710,
+            "title": "South Africa"
+        }
+    },
+    {
+        "pk": 231,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u042e\u0436\u043d\u0430\u044f \u0413\u0435\u043e\u0440\u0433\u0438\u044f \u0438 \u042e\u0436\u043d\u044b\u0435 \u0421\u0430\u043d\u0434\u0432\u0438\u0447\u0435\u0432\u044b \u043e-\u0432\u0430",
+            "a3": "SGS",
+            "a2": "GS",
+            "numberCode": 239,
+            "title": "South Georgia and the South Sandwich Islands"
+        }
+    },
+    {
+        "pk": 232,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u042e\u0436\u043d\u0430\u044f \u041a\u043e\u0440\u0435\u044f (\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0440\u0435\u044f)",
+            "a3": "KOR",
+            "a2": "KR",
+            "numberCode": 410,
+            "title": "Korea (South)"
+        }
+    },
+    {
+        "pk": 233,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u042f\u043c\u0430\u0439\u043a\u0430",
+            "a3": "JAM",
+            "a2": "JM",
+            "numberCode": 388,
+            "title": "Jamaica"
+        }
+    },
+    {
+        "pk": 234,
+        "model": "tvtort.SeriesCountry",
+        "fields": {
+            "titleRus": "\u042f\u043f\u043e\u043d\u0438\u044f",
+            "a3": "JPN",
+            "a2": "JP",
+            "numberCode": 392,
+            "title": "Japan"
+        }
+    }
+]

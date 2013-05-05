@@ -14,9 +14,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': 'django_db',                      # Or path to database file if using sqlite3.
-        # The following settings are not used with sqlite3:
-        'USER': 'django_login',
-        'PASSWORD': 'django_login',
+        # The following settings are not used with nosqlite3:
+        'USER': 'django',
+        'PASSWORD': 'django',
         'HOST': 'localhost',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
         'PORT': '5432',                      # Set to empty string for default.
     }
@@ -48,10 +48,6 @@ USE_L10N = True
 
 # If you set this to False, Django will not use timezone-aware datetimes.
 USE_TZ = True
-
-# Absolute filesystem path to the directory that will hold user-uploaded files.
-# Example: "/var/www/example.com/media/"
-MEDIA_ROOT = '/home/agr/work/tvtort/static_content/media/'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
@@ -112,6 +108,13 @@ BASE_DIR='/home/agr/work/tvtort/tvtort'
 
 TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'))
 
+FIXTURE_DIRS = (os.path.join(BASE_DIR, 'fixtures'))
+
+# Absolute filesystem path to the directory that will hold user-uploaded files.
+# Example: "/var/www/example.com/media/"
+MEDIA_ROOT = '/home/agr/work/tvtort/static_content/media/'
+
+
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.admin',
@@ -120,7 +123,9 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'tvtort'
+    'tvtort',
+    'django_evolution',
+    'django_extensions'
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
