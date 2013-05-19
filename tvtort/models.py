@@ -36,6 +36,7 @@ class Photo(models.Model):
         #
 class SeriesGenre(models.Model):
     title = models.CharField(max_length=200)
+    titleRu = models.CharField(max_length=200)
 
 class SeriesCountry(models.Model):
     title = models.CharField(max_length=200)

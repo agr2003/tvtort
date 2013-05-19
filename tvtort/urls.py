@@ -7,7 +7,7 @@ from tvtort import views
 admin.autodiscover()
 
 urlpatterns = patterns('',
-                       url(r'^$', views.index, name='index'),
+                       url(r'^$', views.base, name='base'),
                        # ex: /polls/5/
                        url(r'^(?P<num>\d+)/$', views.detail, name='detail'),
                        # ex: /polls/5/results/

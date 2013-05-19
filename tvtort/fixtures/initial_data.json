@@ -2572,5 +2572,214 @@
             "numberCode": 392,
             "title": "Japan"
         }
+    },
+    {
+        "pk": 1,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Action",
+            "titleRus": "Боевик"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Adventure",
+            "titleRus": "Приключения"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Animation",
+            "titleRus": "Анимация"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Biography",
+            "titleRus": "Биография"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Comedy",
+            "titleRus": "Комедия"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Crime",
+            "titleRus": "Криминал"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Documentary",
+            "titleRus": "Документальный"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Drama",
+            "titleRus": "Драма"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Family",
+            "titleRus": "Семейный"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Fantasy",
+            "titleRus": "Фэнтези"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Film-Noir",
+            "titleRus": "Нуар"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Game-Show",
+            "titleRus": "Игровое шоу"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "History",
+            "titleRus": "Исторический"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Horror",
+            "titleRus": "Ужасы"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Music",
+            "titleRus": "Музыка"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Musical",
+            "titleRus": "Мюзикл"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Mystery",
+            "titleRus": "Мистика"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "News",
+            "titleRus": "Новости"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Reality-TV",
+            "titleRus": "Реалити-шоу"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Romance",
+            "titleRus": "Мелодрама"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Sci-Fi",
+            "titleRus": "Фантастика"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Sport",
+            "titleRus": "Спорт"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Talk-Show",
+            "titleRus": "Ток-шоу"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Thriller",
+            "titleRus": "Триллер"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "War",
+            "titleRus": "Военный"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "tvtort.SeriesGenre",
+        "fields": {
+            "title": "Western",
+            "titleRus": "Вестерн"
+        }
     }
+
 ]

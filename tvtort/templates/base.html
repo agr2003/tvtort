@@ -1,13 +1,27 @@
+
 <html>
-<style type="text/css">
-body { color: #efd; background: #453; padding: 0 5em; margin: 0 }
-h1 { padding: 2em 1em; background: #675 }
-h2 { color: #bf8; border-top: 1px dotted #fff; margin-top: 2em }
-p { margin: 1em 0 }
-</style>
-<body>
-<h1>mysite.example.com</h1>
-{% block content %}
-{% endblock %}
-</body>
+
+    <title>Моя первая страничка</title>
+    <head>
+    {% block head %}
+        <b>Head</b><br>
+        {% block news %}<b>News</b><br>{% endblock %}
+        {% block search %}<b>Search</b><br>{% endblock %}
+    {% endblock %}
+    </head>
+    <body>
+    {% block page %}
+        <b>Page</b><br>
+        {% block content %}
+            <b>Content</b><br>
+        {% endblock %}
+    {% endblock %}
+
+    {% block footer %}
+        <b>Footer</b><br>
+        {% block copyright %}
+            <b>copyright</b><br>
+        {% endblock %}
+    {% endblock %}
+    </body>
 </html>

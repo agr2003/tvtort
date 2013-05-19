@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block page %}
+    <b>Base content page</b><br>
+    {% block content_list %}
+        <b>Base content content_list</b><br>
+    {% endblock %}
+
+    {% block last_added %}
+        <b>Base content last_added</b><br>
+    {% endblock %}
+{% endblock %}

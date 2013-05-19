@@ -8,10 +8,14 @@ def archive(request):
     t = loader.get_template("base.html")
     return HttpResponse(t)
 
+def base(request):
+    t = loader.get_template("base.html")
+    return HttpResponse(t)
+
 
 def index(request):
     latest_countries = SeriesCountry.objects.order_by()
-    template = loader.get_template("tvtort/index.html")
+    template = loader.get_template("index.html")
     context = Context({"latest_countries": latest_countries})
     return HttpResponse(template._render(context))
 
