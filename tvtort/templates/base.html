@@ -3,25 +3,38 @@
 
     <title>Моя первая страничка</title>
     <head>
-    {% block head %}
-        <b>Head</b><br>
-        {% block news %}<b>News</b><br>{% endblock %}
-        {% block search %}<b>Search</b><br>{% endblock %}
-    {% endblock %}
+    <div id="head">
+        {% block head %}
+            <b>Head</b><br>
+            <div id="news">
+                {% block news %}<b>News</b><br>{% endblock %}
+            </div>
+            <div id="search">
+                {% block search %}<b>Search</b><br>{% endblock %}
+            </div>
+        {% endblock %}
+    </div>
     </head>
     <body>
-    {% block page %}
-        <b>Page</b><br>
-        {% block content %}
-            <b>Content</b><br>
+    <div id="page">
+        {% block page %}
+            <b>Page</b><br>
+            <div id="content">
+                {% block content %}
+                    <b>Content</b><br>
+                {% endblock %}
+            </div>
         {% endblock %}
-    {% endblock %}
-
-    {% block footer %}
-        <b>Footer</b><br>
-        {% block copyright %}
-            <b>copyright</b><br>
+    </div>
+    <div id="footer">
+        {% block footer %}
+            <b>Footer</b><br>
+            <div id="copyright">
+                {% block copyright %}
+                    <b>copyright</b><br>
+                {% endblock %}
+            </div>
         {% endblock %}
-    {% endblock %}
+    </div>
     </body>
 </html>
