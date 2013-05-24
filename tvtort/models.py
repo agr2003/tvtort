@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from django.db import models
 from django.db.models import permalink
 
@@ -38,6 +39,9 @@ class SeriesGenre(models.Model):
     title = models.CharField(max_length=200)
     titleRu = models.CharField(max_length=200)
 
+    def __unicode__(self):
+        return self.titleRu
+
 class SeriesCountry(models.Model):
     title = models.CharField(max_length=200)
     titleRus = models.CharField(max_length=200)
@@ -45,14 +49,21 @@ class SeriesCountry(models.Model):
     a3 = models.CharField(max_length=3)
     numberCode = models.IntegerField()
 
-    # .
+    def __unicode__(self):
+        return self.titleRus
+
 class SeriesPersonRole(models.Model):
     title = models.CharField(max_length=200)
+
+    def __unicode__(self):
+        return self.title
 
 
 class IMDB(models.Model):
     url = models.CharField(max_length=500)
-    score = models.IntegerField()
+
+    def __unicode__(self):
+        return self.url
 
 # .
 class SeriesPerson(models.Model):
@@ -61,6 +72,9 @@ class SeriesPerson(models.Model):
     surname = models.CharField(max_length=200)
     roles = models.ManyToManyField(SeriesPersonRole)
     portfolioURL = models.CharField(max_length=500)
+
+    def __unicode__(self):
+        return u"{0} {1} {2}".format(self.firstname, self.lastname, self.surname)
 
 #
 class SeriesDescription(models.Model):
@@ -75,6 +89,10 @@ class SeriesDescription(models.Model):
     director = models.ManyToManyField(SeriesPerson, related_name='seriesdescription_director')
     cast = models.ManyToManyField(SeriesPerson, related_name='seriesdescription_actor')
     imdb = models.ForeignKey(IMDB)
+
+
+    def __unicode__(self):
+        return self.titleRU
 
 
 

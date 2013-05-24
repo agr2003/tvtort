@@ -2578,7 +2578,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Action",
-            "titleRus": "Боевик"
+            "titleRu": "Боевик"
         }
     },
     {
@@ -2586,7 +2586,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Adventure",
-            "titleRus": "Приключения"
+            "titleRu": "Приключения"
         }
     },
     {
@@ -2594,7 +2594,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Animation",
-            "titleRus": "Анимация"
+            "titleRu": "Анимация"
         }
     },
     {
@@ -2602,7 +2602,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Biography",
-            "titleRus": "Биография"
+            "titleRu": "Биография"
         }
     },
     {
@@ -2610,7 +2610,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Comedy",
-            "titleRus": "Комедия"
+            "titleRu": "Комедия"
         }
     },
     {
@@ -2618,7 +2618,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Crime",
-            "titleRus": "Криминал"
+            "titleRu": "Криминал"
         }
     },
     {
@@ -2626,7 +2626,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Documentary",
-            "titleRus": "Документальный"
+            "titleRu": "Документальный"
         }
     },
     {
@@ -2634,7 +2634,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Drama",
-            "titleRus": "Драма"
+            "titleRu": "Драма"
         }
     },
     {
@@ -2642,7 +2642,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Family",
-            "titleRus": "Семейный"
+            "titleRu": "Семейный"
         }
     },
     {
@@ -2650,7 +2650,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Fantasy",
-            "titleRus": "Фэнтези"
+            "titleRu": "Фэнтези"
         }
     },
     {
@@ -2658,7 +2658,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Film-Noir",
-            "titleRus": "Нуар"
+            "titleRu": "Нуар"
         }
     },
     {
@@ -2666,7 +2666,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Game-Show",
-            "titleRus": "Игровое шоу"
+            "titleRu": "Игровое шоу"
         }
     },
     {
@@ -2674,7 +2674,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "History",
-            "titleRus": "Исторический"
+            "titleRu": "Исторический"
         }
     },
     {
@@ -2682,7 +2682,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Horror",
-            "titleRus": "Ужасы"
+            "titleRu": "Ужасы"
         }
     },
     {
@@ -2690,7 +2690,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Music",
-            "titleRus": "Музыка"
+            "titleRu": "Музыка"
         }
     },
     {
@@ -2698,7 +2698,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Musical",
-            "titleRus": "Мюзикл"
+            "titleRu": "Мюзикл"
         }
     },
     {
@@ -2706,7 +2706,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Mystery",
-            "titleRus": "Мистика"
+            "titleRu": "Мистика"
         }
     },
     {
@@ -2714,7 +2714,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "News",
-            "titleRus": "Новости"
+            "titleRu": "Новости"
         }
     },
     {
@@ -2722,7 +2722,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Reality-TV",
-            "titleRus": "Реалити-шоу"
+            "titleRu": "Реалити-шоу"
         }
     },
     {
@@ -2730,7 +2730,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Romance",
-            "titleRus": "Мелодрама"
+            "titleRu": "Мелодрама"
         }
     },
     {
@@ -2738,7 +2738,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Sci-Fi",
-            "titleRus": "Фантастика"
+            "titleRu": "Фантастика"
         }
     },
     {
@@ -2746,7 +2746,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Sport",
-            "titleRus": "Спорт"
+            "titleRu": "Спорт"
         }
     },
     {
@@ -2754,7 +2754,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Talk-Show",
-            "titleRus": "Ток-шоу"
+            "titleRu": "Ток-шоу"
         }
     },
     {
@@ -2762,7 +2762,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Thriller",
-            "titleRus": "Триллер"
+            "titleRu": "Триллер"
         }
     },
     {
@@ -2770,7 +2770,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "War",
-            "titleRus": "Военный"
+            "titleRu": "Военный"
         }
     },
     {
@@ -2778,7 +2778,7 @@
         "model": "tvtort.SeriesGenre",
         "fields": {
             "title": "Western",
-            "titleRus": "Вестерн"
+            "titleRu": "Вестерн"
         }
     }
 
