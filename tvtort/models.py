@@ -1,40 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.db import models
-from django.db.models import permalink
+import datetime
 
-from tvtort.fields import ThumbnailImageField
-
-class Item(models.Model):
-    name = models.CharField(max_length=250)
-    description = models.TextField()
-
-    class Meta:
-        ordering = ['name']
-
-    def __unicode__(self):
-        return self.name
-
-    @permalink
-    def get_absolute_url(self):
-        return ('item_detail', None, {'object_id': self.id})
-
-class Photo(models.Model):
-    item = models.ForeignKey(Item)
-    title = models.CharField(max_length=100)
-    image = ThumbnailImageField(upload_to='photos')
-    caption = models.CharField(max_length=250, blank=True)
-
-    class Meta:
-        ordering = ['title']
-
-    def __unicode__(self):
-        return self.title
-
-    @permalink
-    def get_absolute_url(self):
-        return ('photo_detail', None, {'object_id': self.id})
-
-        #
 class SeriesGenre(models.Model):
     title = models.CharField(max_length=200)
     titleRu = models.CharField(max_length=200)
@@ -52,15 +19,9 @@ class SeriesCountry(models.Model):
     def __unicode__(self):
         return self.titleRus
 
-class SeriesPersonRole(models.Model):
-    title = models.CharField(max_length=200)
-
-    def __unicode__(self):
-        return self.title
-
 
 class IMDB(models.Model):
-    url = models.CharField(max_length=500)
+    url = models.URLField()
 
     def __unicode__(self):
         return self.url
@@ -69,31 +30,73 @@ class IMDB(models.Model):
 class SeriesPerson(models.Model):
     firstname = models.CharField(max_length=200)
     lastname = models.CharField(max_length=200)
-    surname = models.CharField(max_length=200)
-    roles = models.ManyToManyField(SeriesPersonRole)
-    portfolioURL = models.CharField(max_length=500)
+    surname = models.CharField(max_length=200, default=None)
+    portfolioURL = models.URLField()
 
     def __unicode__(self):
-        return u"{0} {1} {2}".format(self.firstname, self.lastname, self.surname)
+        return u"{0} {1}".format(self.firstname, self.lastname)
 
 #
-class SeriesDescription(models.Model):
+
+class SeriesName(models.Model):
     title = models.CharField(max_length=350)
-    originalTitle = models.CharField(max_length=350)
     titleRU = models.CharField(max_length=350)
-    originalTitleRU = models.CharField(max_length=350)
-    coverPath = models.CharField(max_length=300)
+
+    def __unicode__(self):
+        return u"{0} / {1}".format(self.titleRU, self.title)
+
+
+class SeriesDescription(models.Model):
+    name = models.ForeignKey(SeriesName)
+    coverPath = models.FileField(upload_to="photos")
     genres = models.ManyToManyField(SeriesGenre)
     countries = models.ManyToManyField(SeriesCountry)
     releaseDate = models.DateField()
     director = models.ManyToManyField(SeriesPerson, related_name='seriesdescription_director')
     cast = models.ManyToManyField(SeriesPerson, related_name='seriesdescription_actor')
-    imdb = models.ForeignKey(IMDB)
-
+    imdb = models.ForeignKey(IMDB, default=None)
+    description = models.CharField(max_length=2000)
 
     def __unicode__(self):
-        return self.titleRU
+        return u"{0} / {1}".format(self.name.titleRU, self.name.title)
 
+
+class SeriesRating(models.Model):
+    series = models.ForeignKey(SeriesDescription)
+    rating = models.IntegerField()
+
+    def __unicode__(self):
+        return u"{0} - {1}".format(self.series.titleRU, self.rating)
+
+
+class SeriesSeasonRating(models.Model):
+    seriesSeason = models.ForeignKey(SeriesDescription)
+    rating = models.IntegerField()
+
+    def __unicode__(self):
+        return u"{0} - {1}".format(self.seriesSeason.titleRU, self.rating)
+
+
+class SeriesSeason(models.Model):
+    parent = models.ForeignKey(SeriesDescription)
+    serialNumber = models.IntegerField()
+    description = models.CharField(max_length=2000, default=None)
+
+    def __unicode__(self):
+        return u"{0} - {1}".format(self.parent.name.titleRU, self.serialNumber)
+
+
+class SeriesEpisode(models.Model):
+    parent = models.ForeignKey(SeriesSeason)
+    title = models.CharField(max_length=350, default=None)
+    titleRU = models.CharField(max_length=350, default=None)
+    serialNumber = models.IntegerField()
+    description = models.CharField(max_length=1200, default=None)
+    addDate = models.DateField()
+    path = models.FileField(upload_to="video")
+
+    def __unicode__(self):
+        return u"{0} - {1} сезон ({2} серия)".format(self.parent.parent, self.parent.serialNumber, self.serialNumber)
 
 
 

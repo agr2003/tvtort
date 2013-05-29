@@ -104,15 +104,15 @@ ROOT_URLCONF = 'urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'tvtort.wsgi.application'
 
-BASE_DIR='/home/agr/work/tvtort/tvtort'
+BASE_DIR='/home/agr/IdeaProjects/tvtort/tvtort'
 
-TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'))
+TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'),)
 
-FIXTURE_DIRS = (os.path.join(BASE_DIR, 'fixtures'))
+FIXTURE_DIRS = (os.path.join(BASE_DIR, 'fixtures'),)
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/var/www/example.com/media/"
-MEDIA_ROOT = '/home/agr/work/tvtort/static_content/media/'
+MEDIA_ROOT = '/home/agr/IdeaProjects/tvtort/static_content/media/'
 
 
 INSTALLED_APPS = (
@@ -124,7 +124,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'tvtort',
-    'django_evolution',
+    'south',
+    # 'django_evolution',
     'django_extensions'
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',

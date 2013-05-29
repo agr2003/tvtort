@@ -1,0 +1,14 @@
+{% extends "tvtort/base.html" %}
+
+{% block content %}
+    <div id="list">
+        {% block list %}
+            {% include "tvtort/series_list.html" %}
+        {% endblock %}
+    </div>
+    <div id="info">
+        {% block info %}
+            {% include "tvtort/info_list.html" %}
+        {% endblock %}
+    </div>
+{% endblock %}

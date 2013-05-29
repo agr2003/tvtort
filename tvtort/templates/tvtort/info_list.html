@@ -1,0 +1,11 @@
+<div id="episodesList">
+    {% if last_episodes %}
+        <ul>
+            {% for episode in last_episodes %}
+                <li>{{ episode }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No episodes are available.</p>
+    {% endif %}
+</div>

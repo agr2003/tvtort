@@ -2,16 +2,27 @@
 from django.shortcuts import get_object_or_404, render
 from django.template import loader, Context
 from django.http import HttpResponse
-from tvtort.models import SeriesCountry
+from tvtort.models import SeriesCountry, SeriesEpisode
+import datetime
+from datetime import date
 
-                 # comment
+# comment
 def archive(request):
-    t = loader.get_template("base.html")
+    t = loader.get_template("tvtort/base.html")
     return HttpResponse(t)
 
 def base(request):
-    t = loader.get_template("base.html")
-    return HttpResponse(t)
+    endDate = date.today()
+    startDate = endDate - datetime.timedelta(days=5)
+
+    last_episodes = SeriesEpisode.objects.filter(addDate__range=[startDate, endDate])
+    alphabet = ["А", "Б", "В", "Г", "Д", "Е", "Ж", "З", "И", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф",
+                "Х", "Ц", "Ч", "Ш", "Щ", "Э", "Ю", "Я"]
+    alphabet.sort()
+
+    t = loader.get_template("tvtort/base_content.html")
+    html = t.render(Context({"last_episodes": last_episodes, "alphabet": alphabet}))
+    return HttpResponse(html)
 
 
 def index(request):
