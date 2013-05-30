@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from django.conf.urls import patterns, include, url
 
 # Uncomment the next two lines to enable the admin:
@@ -9,7 +10,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
                        url(r'^$', views.base, name='base'),
                        # ex: /polls/5/
-                       url(r'^(?P<num>\D?)/$', views.detail, name='detail'),
+                       url(r'^(?P<letter>\w{1})/$', views.detail, name='detail'),
                        # ex: /polls/5/results/
                        url(r'^(?P<num>\d+)/results/$', views.results, name='results'),
                        # ex: /polls/5/vote/

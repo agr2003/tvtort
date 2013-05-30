@@ -2,9 +2,12 @@
 from django.shortcuts import get_object_or_404, render
 from django.template import loader, Context
 from django.http import HttpResponse
-from tvtort.models import SeriesCountry, SeriesEpisode
+from tvtort.models import SeriesCountry, SeriesEpisode, SeriesDescription
 import datetime
 from datetime import date
+
+alphabet = ["А", "Б", "В", "Г", "Д", "Е", "Ж", "З", "И", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф",
+            "Х", "Ц", "Ч", "Ш", "Щ", "Э", "Ю", "Я"]
 
 # comment
 def archive(request):
@@ -16,8 +19,6 @@ def base(request):
     startDate = endDate - datetime.timedelta(days=5)
 
     last_episodes = SeriesEpisode.objects.filter(addDate__range=[startDate, endDate])
-    alphabet = ["А", "Б", "В", "Г", "Д", "Е", "Ж", "З", "И", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф",
-                "Х", "Ц", "Ч", "Ш", "Щ", "Э", "Ю", "Я"]
     alphabet.sort()
 
     t = loader.get_template("tvtort/base_content.html")
@@ -32,9 +33,14 @@ def index(request):
     return HttpResponse(template._render(context))
 
 
-def detail(request, num):
-    country = get_object_or_404(SeriesCountry, pk=num)
-    return render(request, 'tvtort/detail.html', {"country": country})
+def detail(request, letter):
+    alphabet.sort()
+
+    last_episodes = SeriesEpisode.objects.filter(titleRU__regex=r"^[%s]+" % letter )
+
+    t = loader.get_template("tvtort/base_content.html")
+    html = t.render(Context({"last_episodes": last_episodes, "alphabet": alphabet}))
+    return HttpResponse(html)
 
 
 def results(request, num):
