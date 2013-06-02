@@ -5,7 +5,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-     ('agr', 'agr@test.com'),
+    ('agr', 'agr@test.com'),
 )
 
 MANAGERS = ADMINS
@@ -13,12 +13,12 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'django_db',                      # Or path to database file if using sqlite3.
+        'NAME': 'django_db', # Or path to database file if using sqlite3.
         # The following settings are not used with nosqlite3:
         'USER': 'django',
         'PASSWORD': 'django',
-        'HOST': 'localhost',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        'PORT': '5432',                      # Set to empty string for default.
+        'HOST': 'localhost', # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+        'PORT': '5432', # Set to empty string for default.
     }
 }
 
@@ -66,9 +66,9 @@ STATIC_URL = '/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
-    # Put strings here, like "/home/html/static" or "C:/www/django/static".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
+# Put strings here, like "/home/html/static" or "C:/www/django/static".
+# Always use forward slashes, even on Windows.
+# Don't forget to use absolute paths, not relative paths.
 )
 
 # List of finder classes that know how to find static files in
@@ -76,7 +76,7 @@ STATICFILES_DIRS = (
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-#    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+    #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
 # Make this unique, and don't share it with anybody.
@@ -86,7 +86,7 @@ SECRET_KEY = 'ha_j$rh%z!5^9n^9kv+3)25#n7tz4overgy+catczj-7uzmiko'
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
-#     'django.template.loaders.eggs.Loader',
+    #     'django.template.loaders.eggs.Loader',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -104,7 +104,7 @@ ROOT_URLCONF = 'urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'tvtort.wsgi.application'
 
-BASE_DIR='/home/agr/IdeaProjects/tvtort/tvtort'
+BASE_DIR = '/home/agr/IdeaProjects/tvtort/tvtort'
 
 TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'),)
 
@@ -113,7 +113,6 @@ FIXTURE_DIRS = (os.path.join(BASE_DIR, 'fixtures'),)
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/var/www/example.com/media/"
 MEDIA_ROOT = '/home/agr/IdeaProjects/tvtort/static_content/media/'
-
 
 INSTALLED_APPS = (
     'django.contrib.auth',
@@ -126,10 +125,20 @@ INSTALLED_APPS = (
     'tvtort',
     'south',
     # 'django_evolution',
-    'django_extensions'
+    'django_extensions',
+    'ajax_select',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
+
+# define the lookup channels in use on the site
+AJAX_LOOKUP_CHANNELS = {
+    #   pass a dict with the model and the field to search against
+    'seriesName': {'model': 'tvtort.SeriesName', 'search_field': 'titleRU'}
+}
+# magically include jqueryUI/js/css
+AJAX_SELECT_BOOTSTRAP = True
+AJAX_SELECT_INLINES = 'inline'
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to

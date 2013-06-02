@@ -1,0 +1,11 @@
+<div id="seriesDescriptionList">
+    {% if series_descriptions %}
+        <ul>
+            {% for series_description in series_descriptions %}
+                <li>{{ series_description }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No series are available.</p>
+    {% endif %}
+</div>

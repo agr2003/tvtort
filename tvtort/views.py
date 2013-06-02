@@ -2,7 +2,7 @@
 from django.shortcuts import get_object_or_404, render
 from django.template import loader, Context
 from django.http import HttpResponse
-from tvtort.models import SeriesCountry, SeriesEpisode, SeriesDescription
+from tvtort.models import SeriesCountry, SeriesEpisode, SeriesDescription, SeriesName
 import datetime
 from datetime import date
 
@@ -14,11 +14,14 @@ def archive(request):
     t = loader.get_template("tvtort/base.html")
     return HttpResponse(t)
 
+
 def base(request):
+    # загружаем серии добавленные за последние пять дней
     endDate = date.today()
     startDate = endDate - datetime.timedelta(days=5)
+    # сортируем в реверсивном порядке, последние наверх
+    last_episodes = SeriesEpisode.objects.filter(addDate__range=[startDate, endDate]).order_by("-addDate")
 
-    last_episodes = SeriesEpisode.objects.filter(addDate__range=[startDate, endDate])
     alphabet.sort()
 
     t = loader.get_template("tvtort/base_content.html")
@@ -33,14 +36,22 @@ def index(request):
     return HttpResponse(template._render(context))
 
 
-def detail(request, letter):
-    alphabet.sort()
+def seriesByLetter(request, letter):
+    # загружаем название сериала по первой букве
+    seriesNames = SeriesName.objects.filter(titleRU__regex=r"^[%s]+" % letter)
+    seriesDescriptionResult = []
+    # получаем сериал по имени
+    # todo разобраться в возможности добавления сразу списка
+    for seriesName in seriesNames:
+        for seriesDescription in seriesName.seriesdescription_set.all():
+            seriesDescriptionResult.append(seriesDescription)
 
-    last_episodes = SeriesEpisode.objects.filter(titleRU__regex=r"^[%s]+" % letter )
-
-    t = loader.get_template("tvtort/base_content.html")
-    html = t.render(Context({"last_episodes": last_episodes, "alphabet": alphabet}))
+    t = loader.get_template("tvtort/base_series_by_name.html")
+    html = t.render(Context({"series_descriptions": seriesDescriptionResult, "alphabet": alphabet}))
     return HttpResponse(html)
+
+def searchByName(request, searchString):
+    seriesNames = SeriesName.objects.filter(titleRU__regex=r"^+[%s]+" % searchString)
 
 
 def results(request, num):
